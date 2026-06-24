@@ -98,10 +98,13 @@ pip install -r requirements.txt
 ### 运行
 
 ```bash
-# 模块方式启动（推荐）
+# 启动器运行（推荐，兼容 PyInstaller 打包）
+python run.py
+
+# 模块方式运行
 python -m hashguard.main
 
-# 或直接运行脚本
+# 直接运行主脚本
 python hashguard/main.py
 ```
 
@@ -120,6 +123,7 @@ python hashguard/main.py
 
 ```
 HashGuard/
+├── run.py                   # 启动器（PyInstaller 打包入口）
 ├── hashguard/
 │   ├── __init__.py          # 包初始化
 │   ├── main.py              # 程序入口
@@ -133,6 +137,7 @@ HashGuard/
 │   ├── verify.py            # 校验文件解析与批量验证
 │   └── utils.py             # 工具函数 (剪贴板/格式化/文件)
 ├── requirements.txt         # Python 依赖
+├── LICENSE                  # MIT 许可证
 └── README.md                # 项目说明
 ```
 
