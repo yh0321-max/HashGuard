@@ -142,5 +142,5 @@ MIT License — 详见 [LICENSE](LICENSE) 文件。
 ---
 
 <p align="center">
-  <sub>Made with ♥ by <a href="https://github.com/yh0321-max">yh0321-max</a></sub>
+  <sub>由 <b>DeepSeek V4 Pro</b> 独自编写并上传</sub>
 </p>
