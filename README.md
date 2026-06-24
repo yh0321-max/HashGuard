@@ -3,6 +3,7 @@
   <img src="https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg" alt="Platform">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/algorithms-9-orange.svg" alt="Algorithms">
+  <img src="https://img.shields.io/badge/release-v1.0.0-blueviolet.svg" alt="Release">
 </p>
 
 # HashGuard
@@ -10,6 +11,13 @@
 > 现代化文件哈希检验工具 — 支持 9 种主流哈希算法，暗黑/明亮双主题，GUI 图形界面
 
 HashGuard 是一款跨平台的桌面应用，提供直观的图形界面用于计算、对比和验证文件哈希值。支持从经典的 MD5 到最新的 BLAKE3 共 9 种算法，满足日常校验、安全审计、文件去重等场景需求。
+
+## ⬇️ 下载
+
+| 平台 | 方式 | 说明 |
+|------|------|------|
+| 🪟 **Windows** | [HashGuard.exe](https://github.com/yh0321-max/HashGuard/releases/latest) | 单文件，双击即用，无需安装 Python |
+| 🐍 **跨平台** | `git clone` + `pip install` | 源码运行，需 Python 3.10+ |
 
 ---
 
@@ -141,4 +149,6 @@ MIT License — 详见 [LICENSE](LICENSE) 文件。
 
 ---
 
-🤖 *本项目由 DeepSeek V4 Pro 独立编写*
+<p align="center">
+  <sub>🤖 本项目由 <b>DeepSeek V4 Pro</b> 独立编写并维护</sub>
+</p>
