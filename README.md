@@ -141,6 +141,4 @@ MIT License — 详见 [LICENSE](LICENSE) 文件。
 
 ---
 
-<p align="center">
-  <sub>由 <b>DeepSeek V4 Pro</b> 独自编写并上传</sub>
-</p>
+🤖 *本项目由 DeepSeek V4 Pro 独立编写*
